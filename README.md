@@ -189,11 +189,11 @@ Answers 5 business questions. Each answer is **printed to the console** ✚ **sa
 
 | # | Question | CSV output |
 |---|---|---|
-| Q1 | Connect rate by language | `q1_connect_rate_by_language.csv` |
-| Q2 | Which hour has the highest `callback_requested` rate? | `q2_callback_rate_by_hour.csv` |
-| Q3 | % of calls that are `long` + their average `amount_promised` | `q3_long_calls_stats.csv` |
-| Q4 | Top 3 agents by total calls, with outcome distribution | `q4_top3_agents_outcomes.csv`, `q4_top3_agents_totals.csv` |
-| Q5 | Call volume trend across dates | `q5_call_volume_by_date.csv` |
+| Q1 | Connect rate by language | `connect_rate_by_language.csv` |
+| Q2 | Which hour has the highest `callback_requested` rate? | `callback_rate_by_hour.csv` |
+| Q3 | % of calls that are `long` + their average `amount_promised` | `long_calls_stats.csv` |
+| Q4 | Top 3 agents by total calls, with outcome distribution | `top3_agents_outcomes.csv`, `top3_agents_totals.csv` |
+| Q5 | Call volume trend across dates | `call_volume_by_date.csv` |
 
 **🏆 Sample findings** (from the seeded data — you'll get the exact same numbers):
 
@@ -266,3 +266,4 @@ python -c "import sqlite3; conn = sqlite3.connect('call_center.db'); [print(r) f
 **Built with 🐍 pure Python · 🗄️ SQLite · and a fixed random seed 🎲**
 
 </div>
+END
