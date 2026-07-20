@@ -1,0 +1,16 @@
+# Generated pipeline artifacts -- reproducible by running the scripts
+call_logs.json
+valid_records.json
+invalid_records.json
+ingestion_log.json
+clean_records.json
+call_center.db
+reports/
+
+# Excel working files
+*.xlsx
+~$*
+
+# Python cache
+__pycache__/
+*.pyc
